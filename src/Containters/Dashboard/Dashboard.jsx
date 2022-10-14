@@ -2,15 +2,14 @@ import React from 'react';
 
 const Dashboard = (props) => {
   const {
-    history
+    navigate
   } = props
-
   return (
     <div>
       Dashboard
-      <button onClick={() => history.replace('/invoice')}>onclick</button>
+      <button onClick={() => navigate('/invoice')}>onclick</button>
     </div>
   );
 };
 
-export default Dashboard;
+export default Dashboard

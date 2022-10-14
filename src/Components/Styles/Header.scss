@@ -1,0 +1,19 @@
+.header-overview{
+  height: 65px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #E5E9F0;
+}
+
+.mobile-header-overview{
+  display: none;
+  @media screen and (max-width: 768px){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+    width: 100%;
+    height: 56px;
+    background: #3333FF;
+  }
+}

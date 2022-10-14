@@ -2,14 +2,14 @@ import React from 'react';
 
 const InvoiceForm = (props) => {
   const {
-    history
+    navigate
   } = props
   return (
     <div>
       InvoiceForm
-      <button onClick={() => history.replace('/')}>onclick</button>
+      <button onClick={() => navigate('/')}>onclick</button>
     </div>
   );
 };
 
-export default InvoiceForm;
+export default InvoiceForm

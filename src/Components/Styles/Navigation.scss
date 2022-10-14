@@ -1,0 +1,15 @@
+.navigation-overview{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 100vh;
+  background: #3333FF;
+  .label{
+    font-family: 'CircularXX';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+}
